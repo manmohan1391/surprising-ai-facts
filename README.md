@@ -18,7 +18,7 @@
 **Little-known, true, and slightly unsettling facts about artificial intelligence.**
 Every single one links to a paper, an official post, or reputable reporting.
 
-[📜 History](#-history-older-than-you-think) · [🤯 Weird](#-ai-is-weirder-than-you-think) · [📈 Scale](#-numbers--scale) · [🫠 Failures](#-hallucinations--failures) · [🗣️ Language](#%EF%B8%8F-language--tokens) · [⚡ Energy](#-energy--compute) · [🧨 Myths](#-myths-busted) · [👩‍💻 Devs](#-for-software-engineers)
+[📜 History](#-history-older-than-you-think) · [🤯 Weird](#-ai-is-weirder-than-you-think) · [📈 Scale](#-numbers--scale) · [🫠 Failures](#-hallucinations--failures) · [🗣️ Language](#%EF%B8%8F-language--tokens) · [⚡ Energy](#-energy--compute) · [🧨 Myths](#-myths-busted) · [💻 Devs](#-for-software-engineers)
 
 </div>
 
@@ -32,7 +32,7 @@ Welcome! You probably just watched a 30-second version of one of these. This pag
 > Short on time? Read these five first: [#4 ELIZA's secretary](#4-the-first-chatbots-creator-was-asked-to-leave-the-room-so-someone-could-talk-to-it-in-private), [#9 "Let's think step by step"](#9-four-words-quadrupled-a-models-math-score), [#10 the CAPTCHA lie](#10-gpt-4-told-a-human-it-was-visually-impaired-to-get-a-captcha-solved), [#19 the fake court cases](#19-lawyers-were-fined-5000-for-citing-court-cases-chatgpt-invented), and [#36 the bar exam](#36-gpt-4-aced-the-bar-exam-not-quite).
 
 > [!TIP]
-> **Write code for a living?** Skip straight to [👩‍💻 For software engineers](#-for-software-engineers): no maths, just things that happened to developers.
+> **Write code for a living?** Skip straight to [💻 For software engineers](#-for-software-engineers): no maths, just things that happened to developers.
 
 ## 📚 Table of contents
 
@@ -45,7 +45,7 @@ Welcome! You probably just watched a 30-second version of one of these. This pag
 | 🗣️ | [Language & tokens](#%EF%B8%8F-language--tokens) | 26–29 | How models actually "read" |
 | ⚡ | [Energy & compute](#-energy--compute) | 30–35 | Watts, water and a nuclear plant |
 | 🧨 | [Myths busted](#-myths-busted) | 36–40 | Things everyone repeats that aren't quite true |
-| 👩‍💻 | [For software engineers](#-for-software-engineers) | 41–53 | Fake packages, deleted prod databases, "almost right" code |
+| 💻 | [For software engineers](#-for-software-engineers) | 41–53 | Fake packages, deleted prod databases, "almost right" code |
 | 🗺️ | [Timeline](#%EF%B8%8F-the-whole-story-on-one-timeline) | | All of it on one chart |
 
 ---
@@ -337,7 +337,7 @@ In 2024, the Nobel Prize in Physics went to John Hopfield and Geoffrey Hinton fo
 
 ---
 
-## 👩‍💻 For software engineers
+## 💻 For software engineers
 
 > [!NOTE]
 > No maths, no model internals. Just things that have happened to people who write code for a living, with the receipts.
