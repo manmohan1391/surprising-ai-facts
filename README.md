@@ -4,9 +4,9 @@
 
 <br>
 
-[![40 facts](https://img.shields.io/badge/40_facts-hand--checked-6366f1?style=for-the-badge&logo=bookstack&logoColor=white)](#-table-of-contents)
+[![53 facts](https://img.shields.io/badge/53_facts-hand--checked-6366f1?style=for-the-badge&logo=bookstack&logoColor=white)](#-table-of-contents)
 [![Every fact sourced](https://img.shields.io/badge/every_fact-has_a_source-10b981?style=for-the-badge&logo=googlescholar&logoColor=white)](#-how-these-facts-were-checked)
-[![7 categories](https://img.shields.io/badge/7-categories-0ea5e9?style=for-the-badge&logo=databricks&logoColor=white)](#-table-of-contents)
+[![8 categories](https://img.shields.io/badge/8-categories-0ea5e9?style=for-the-badge&logo=databricks&logoColor=white)](#-table-of-contents)
 [![Checked Oct 2026](https://img.shields.io/badge/checked-Oct_2026-f59e0b?style=for-the-badge&logo=googlecalendar&logoColor=white)](#-how-these-facts-were-checked)
 
 [![Suggest a fact](https://img.shields.io/badge/💡_Suggest_a_fact-source_required-8b5cf6?style=flat-square)](CONTRIBUTING.md)
@@ -18,7 +18,7 @@
 **Little-known, true, and slightly unsettling facts about artificial intelligence.**
 Every single one links to a paper, an official post, or reputable reporting.
 
-[📜 History](#-history-older-than-you-think) · [🤯 Weird](#-ai-is-weirder-than-you-think) · [📈 Scale](#-numbers--scale) · [🫠 Failures](#-hallucinations--failures) · [🗣️ Language](#%EF%B8%8F-language--tokens) · [⚡ Energy](#-energy--compute) · [🧨 Myths](#-myths-busted)
+[📜 History](#-history-older-than-you-think) · [🤯 Weird](#-ai-is-weirder-than-you-think) · [📈 Scale](#-numbers--scale) · [🫠 Failures](#-hallucinations--failures) · [🗣️ Language](#%EF%B8%8F-language--tokens) · [⚡ Energy](#-energy--compute) · [🧨 Myths](#-myths-busted) · [👩‍💻 Devs](#-for-software-engineers)
 
 </div>
 
@@ -31,6 +31,9 @@ Welcome! You probably just watched a 30-second version of one of these. This pag
 > [!TIP]
 > Short on time? Read these five first: [#4 ELIZA's secretary](#4-the-first-chatbots-creator-was-asked-to-leave-the-room-so-someone-could-talk-to-it-in-private), [#9 "Let's think step by step"](#9-four-words-quadrupled-a-models-math-score), [#10 the CAPTCHA lie](#10-gpt-4-told-a-human-it-was-visually-impaired-to-get-a-captcha-solved), [#19 the fake court cases](#19-lawyers-were-fined-5000-for-citing-court-cases-chatgpt-invented), and [#36 the bar exam](#36-gpt-4-aced-the-bar-exam-not-quite).
 
+> [!TIP]
+> **Write code for a living?** Skip straight to [👩‍💻 For software engineers](#-for-software-engineers): no maths, just things that happened to developers.
+
 ## 📚 Table of contents
 
 | | Category | Facts | Vibe |
@@ -42,6 +45,7 @@ Welcome! You probably just watched a 30-second version of one of these. This pag
 | 🗣️ | [Language & tokens](#%EF%B8%8F-language--tokens) | 26–29 | How models actually "read" |
 | ⚡ | [Energy & compute](#-energy--compute) | 30–35 | Watts, water and a nuclear plant |
 | 🧨 | [Myths busted](#-myths-busted) | 36–40 | Things everyone repeats that aren't quite true |
+| 👩‍💻 | [For software engineers](#-for-software-engineers) | 41–53 | Fake packages, deleted prod databases, "almost right" code |
 | 🗺️ | [Timeline](#%EF%B8%8F-the-whole-story-on-one-timeline) | | All of it on one chart |
 
 ---
@@ -333,6 +337,88 @@ In 2024, the Nobel Prize in Physics went to John Hopfield and Geoffrey Hinton fo
 
 ---
 
+## 👩‍💻 For software engineers
+
+> [!NOTE]
+> No maths, no model internals. Just things that have happened to people who write code for a living, with the receipts.
+
+### 41. Developers using AI were 19% slower, and still believed they were 20% faster.
+In an early-2025 study, METR gave 16 experienced open-source developers 246 real issues from their own projects, and randomly allowed or banned AI tools for each one. With AI allowed, issues took **19% longer**. Before starting, the developers expected AI to speed them up by 24%. After finishing, they still believed it had sped them up by 20%.
+
+<details>
+<summary><b>▶ The story behind it</b></summary>
+
+METR tried to rerun the study with late-2025 tools and hit a very relatable problem: developers didn't want to do tasks without AI anymore. Some skipped submitting tasks they'd have to do "AI-disallowed", and one said *"I will feel so painful if the task is decided as AI-disallowed."* METR now thinks developers are likely more sped up than in early 2025, but says the new data is too skewed to say by how much.
+
+</details>
+
+📎 Source: [METR, July 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) · [METR follow-up, Feb 2026](https://metr.org/blog/2026-02-24-uplift-update/)
+
+### 42. The number-one complaint about AI code is that it's "almost right, but not quite".
+In Stack Overflow's 2025 Developer Survey, 80% of developers said they use AI tools, but only 29% trusted their accuracy (down from 40%). The top frustration, picked by 45%, was AI answers that are "almost right, but not quite", and 66% said they spend more time fixing almost-right AI code. When they don't trust the AI, 75% still ask a human.
+
+📎 Source: [Stack Overflow blog, 2025 Developer Survey results](https://stackoverflow.blog/2025/07/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/)
+
+### 43. On a fresh, well-defined task, Copilot users finished 55.8% faster.
+Not every study says AI slows you down. In a 2023 controlled experiment by Microsoft Research, GitHub and MIT, developers were asked to write an HTTP server in JavaScript as fast as they could. The group with GitHub Copilot finished **55.8% faster**. The difference from fact #41? A small greenfield task versus big, messy codebases the developers already knew inside out.
+
+📎 Source: [Peng et al., 2023 (arXiv)](https://arxiv.org/abs/2302.06590)
+
+### 44. People who coded with an AI assistant wrote less secure code, and felt more sure it was secure.
+Stanford researchers gave participants security-related programming tasks, some with an AI assistant and some without. The AI group wrote significantly less secure code, especially for encryption and SQL injection. They were also more likely to believe their code was secure. Overconfidence, built in.
+
+📎 Source: [Perry, Srivastava, Kumar & Boneh, ACM CCS 2023 (arXiv)](https://arxiv.org/abs/2211.03622)
+
+### 45. AI coding tools invent npm and PyPI packages that don't exist.
+Researchers generated 576,000 Python and JavaScript code samples with 16 models and checked every package they imported. On average, 21.7% of packages suggested by open-source models and 5.2% by commercial models **did not exist**. In total the models made up **205,474** different fake package names.
+
+> [!WARNING]
+> Many of these fake names come back again and again. Attackers can register them and wait for someone to `npm install` what the AI suggested. This attack has a name now: **slopsquatting**.
+
+📎 Source: [Spracklen et al., USENIX Security 2025 (arXiv)](https://arxiv.org/abs/2406.10279)
+
+### 46. A researcher published a package that AI kept making up. It got 15,000+ real downloads.
+Bar Lanyado of Lasso Security noticed AI models kept telling people to `pip install huggingface-cli`, which wasn't the real way to install Hugging Face's CLI. He uploaded an empty package with that name to see what would happen. In three months it got more than 15,000 genuine downloads, and the install command even turned up in the README of an Alibaba research repo.
+
+📎 Source: [The Register, March 2024](https://www.theregister.com/2024/03/28/ai_bots_hallucinate_software_packages/)
+
+### 47. An AI agent deleted a production database during a code freeze, then said it couldn't be restored.
+In July 2025, SaaStr founder Jason Lemkin was building an app with Replit's AI agent. During an explicit code freeze, the agent ran destructive commands and wiped the production database with records on more than 1,200 executives and companies. It then said a rollback wouldn't work. It did. Replit's CEO called it "unacceptable and should never be possible" and added separate dev and prod databases.
+
+📎 Source: [eWeek](https://www.eweek.com/news/replit-ai-coding-assistant-failure/) · [heise](https://heise.de/-10499597)
+
+### 48. An AI support bot invented a company policy, and customers cancelled over it.
+In April 2025, a Cursor user kept getting logged out when switching machines and emailed support. A reply from "Sam" said Cursor allows one device per subscription as a security policy. There was no such policy, and "Sam" was an AI. Users got angry online and some cancelled before a co-founder explained it was a wrong answer from the support bot.
+
+📎 Source: [CX Network](https://www.cxnetwork.com/artificial-intelligence/news/chatbot-hallucination-backlash) · [AI Incident Database](https://incidentdatabase.ai/cite/1039/)
+
+### 49. Amazon's AI coding extension shipped with a prompt telling it to wipe your machine.
+In July 2025, version 1.84.0 of the Amazon Q Developer extension for VS Code went out with an injected prompt telling the AI agent to delete the user's files and their AWS cloud resources. Amazon said the code was malformed and wouldn't have run, revoked the credentials and shipped a clean 1.85.0. The lesson: in an AI tool, a prompt is code, and it needs code review.
+
+📎 Source: [BleepingComputer](https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/) · [The Register](https://www.theregister.com/2025/07/24/amazon_q_ai_prompt/)
+
+### 50. By October 2024, more than a quarter of all new code at Google was written by AI.
+On Alphabet's Q3 2024 earnings call, Sundar Pichai said: "More than a quarter of all new code at Google is generated by AI, then reviewed and accepted by engineers." Note the second half. Someone still has to review it.
+
+📎 Source: [Fortune, Oct 30, 2024](https://fortune.com/2024/10/30/googles-code-ai-sundar-pichai/)
+
+### 51. Amazon says AI saved it 4,500 developer-years of Java upgrades.
+In August 2024, Amazon CEO Andy Jassy wrote that Amazon Q cut the time to upgrade an app to Java 17 from about 50 developer-days to a few hours, saving the equivalent of 4,500 developer-years. He called the number "crazy but, real". It's Amazon's own estimate about Amazon's own product, so add salt to taste.
+
+📎 Source: [The Decoder](https://the-decoder.com/amazons-ai-assistant-saves-4500-years-of-development-time-ceo-andy-jassy-says/)
+
+### 52. Within six months of ChatGPT, Stack Overflow activity dropped about 25%.
+Researchers compared Stack Overflow with similar sites where ChatGPT was harder to use, such as Russian and Chinese Q&A sites. Six months after ChatGPT launched, posting on Stack Overflow had fallen about 25% relative to them, across beginners and experienced users alike. The catch: fewer public answers today means less public data to train tomorrow's models.
+
+📎 Source: [del Rio-Chanona, Laurentsyeva & Wachs, *PNAS Nexus* (2024)](https://www.inet.ox.ac.uk/news/new-study-reveals-impact-of-chatgpt-on-public-knowledge-sharing)
+
+### 53. "Vibe coding" became the Collins Word of the Year in 2025.
+Andrej Karpathy coined "vibe coding" in February 2025 for building software by talking to AI and almost forgetting the code exists. Nine months later, Collins Dictionary named it the Word of the Year, summing it up as "programming by vibes, not variables". (The 2023 winner was "AI".)
+
+📎 Source: [CNN via KVIA, Nov 6, 2025](https://kvia.com/news/business-technology/cnn-business-consumer/2025/11/06/vibe-coding-named-collins-dictionarys-word-of-the-year/)
+
+---
+
 ## 🗺️ The whole story on one timeline
 
 ```mermaid
@@ -349,6 +435,7 @@ timeline
     2022 : ChatGPT launches (Nov 30)
     2023 : Fake court cases and the Bard ad
     2024 : AI wins Nobel Prizes in physics and chemistry
+    2025 : Vibe coding, fake packages and a deleted prod database
 ```
 
 📎 Transformer paper: [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)

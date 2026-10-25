@@ -29,6 +29,7 @@ assignees: ''
 - [ ] 🗣️ Language & tokens
 - [ ] ⚡ Energy & compute
 - [ ] 🧨 Myths busted
+- [ ] 👩‍💻 For software engineers
 
 ## Checklist
 - [ ] I linked a primary source or reputable reporting (not a social media repost).

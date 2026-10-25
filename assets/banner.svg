@@ -54,16 +54,17 @@
   <text x="600" y="170" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#title)" filter="url(#glow)">Surprising AI Facts</text>
 
   <!-- subtitle -->
-  <text x="600" y="214" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#e2e8f0">40 little-known facts · every one with a source</text>
+  <text x="600" y="214" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#e2e8f0">53 little-known facts · every one with a source</text>
 
   <!-- category pills -->
   <g font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#fff">
-    <rect x="227" y="246" width="96" height="30" rx="15" fill="#6366f1"/><text x="275" y="266">history</text>
-    <rect x="333" y="246" width="96" height="30" rx="15" fill="#0ea5e9"/><text x="381" y="266">weird</text>
-    <rect x="439" y="246" width="96" height="30" rx="15" fill="#10b981"/><text x="487" y="266">scale</text>
-    <rect x="545" y="246" width="96" height="30" rx="15" fill="#ef4444"/><text x="593" y="266">failures</text>
-    <rect x="651" y="246" width="96" height="30" rx="15" fill="#f59e0b"/><text x="699" y="266">language</text>
-    <rect x="757" y="246" width="96" height="30" rx="15" fill="#8b5cf6"/><text x="805" y="266">energy</text>
-    <rect x="863" y="246" width="96" height="30" rx="15" fill="#ec4899"/><text x="911" y="266">myths</text>
+    <rect x="181" y="246" width="96" height="30" rx="15" fill="#6366f1"/><text x="229" y="266">history</text>
+    <rect x="287" y="246" width="96" height="30" rx="15" fill="#0ea5e9"/><text x="335" y="266">weird</text>
+    <rect x="393" y="246" width="96" height="30" rx="15" fill="#10b981"/><text x="441" y="266">scale</text>
+    <rect x="499" y="246" width="96" height="30" rx="15" fill="#ef4444"/><text x="547" y="266">failures</text>
+    <rect x="605" y="246" width="96" height="30" rx="15" fill="#f59e0b"/><text x="653" y="266">language</text>
+    <rect x="711" y="246" width="96" height="30" rx="15" fill="#8b5cf6"/><text x="759" y="266">energy</text>
+    <rect x="817" y="246" width="96" height="30" rx="15" fill="#ec4899"/><text x="865" y="266">myths</text>
+    <rect x="923" y="246" width="96" height="30" rx="15" fill="#22c55e"/><text x="971" y="266">devs</text>
   </g>
 </svg>
